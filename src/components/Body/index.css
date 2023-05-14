@@ -1,0 +1,47 @@
+.main-container-body{
+    background-image:url('https://res.cloudinary.com/dq9q35tpp/image/upload/v1683964490/edyod_rvp5jm.png');
+    height:100vh;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.left-container{
+    width: 50%;
+    padding-left: 30px;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.heading{
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+}
+.cross-line{
+    text-decoration-line: line-through;
+    text-decoration-color: red;
+}
+.details{
+    display: flex;
+}
+.react-body-icons{
+    padding-top: 20px;
+    color:#ffffff;
+}
+.blue{
+    color:#0096FF;
+}
+p{
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 600;
+    padding-left: 10px;
+}
+.right-container{
+    margin: 20px;
+    padding: 15px;
+    width: 50%;
+}

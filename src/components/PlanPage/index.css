@@ -1,0 +1,265 @@
+.main-container-planpage{
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 14px;
+  margin-left: 50px;
+  margin-bottom:5px;
+  width: 60%;
+  height:88vh;
+  text-align: center;
+  gap: 0.10px;
+}
+.first-container{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.second-container{
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.inside-first-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.first-container-btn{
+  background-color:#0096FF;
+  color: white;
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  border-radius: 60px;
+  border: none;
+  margin-left: 10px;
+}
+.desc{
+  color:  #3C4852;
+  font-size: 6px;
+}
+.descr{
+  color:  #3C4852;
+  font-size: 14px;
+  padding-left: 20px;
+  font-weight: 600;
+  
+}
+.subscription-plans{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  padding-bottom: 10px;
+}
+.offer-portion{
+  display: flex;
+  justify-content: space-between;
+  width: 350px;
+  height: 48px;
+  background-color: #E7E7E7;
+  border: 2px solid #BEBEBE;
+  border-radius: 4px;
+  margin-bottom: 3px;
+}
+.offer-expired{
+  display: flex;
+  width: 88px;
+  height: 10px;
+  font-size: 6px;
+  font-weight: 700;
+  margin-top: 0px;
+  padding-bottom: 6px;
+  margin-left: 30px;
+  background-color: #F77171;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.offer-recommended{
+  display: flex;
+  width: 88px;
+  height: 10px;
+  font-size: 6px;
+  font-weight: 700;
+  margin-top: 0px;
+  padding-bottom: 6px;
+  margin-left: 30px;
+  background-color: #47BA68;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.tick-logo{
+  padding-left: 7px;
+  height: 20px;
+  width: 20px;
+}
+.months-subscription-description{
+  font-size: 14px;
+  color:rgb(117, 105, 105);
+  margin-top: 0px;
+  font-weight: 700;
+}
+.select-icons{
+  margin-left: 10px;
+  margin-top: 2px;
+  color: #E7E7E7;
+}
+
+.months-part{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.price-part{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 4px;
+  font-weight: 600;
+}
+.price-total{
+  color:rgb(117, 105, 105);
+  font-size: 10px;
+}
+.price-discount{
+  color:rgb(117, 105, 105);
+  font-size: 8px;
+  margin-top: 0px;
+}
+.months-input-part{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 15px;
+}
+
+.horizontal-line{
+  border: 1px solid #BEBEBE;
+  width: 350px;
+  margin-right:20px ;
+  margin-left:12px ;   
+}
+#select{
+  accent-color: black;
+}
+.subs-fee{
+  margin-top: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.subs-desc{
+  color: #3C4852;
+  font-size: 13px;
+}
+.subs-price{
+  color: #3C4852;
+  font-size: 13px;
+  padding-right: 20px;
+  font-weight: 700;
+}
+.limited-time-offer{
+  display: flex;
+  flex-direction: column;
+}
+.offer-valid-desc{
+  font-size: 14px;
+  color: #DE4313;
+  margin-top: 2px;
+  
+}
+.offer-span{
+  font-weight: 700;
+  padding-right: 90px;
+  padding-bottom: 4px;
+}
+.offer-price-total{
+  color:rgb(26, 18, 18);
+  font-size: 10px;
+  font-weight: 700;
+  margin-right: 6px;
+}
+.offer-portion-limited{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 350px;
+  height: 58px;
+  border: 2px solid #e43e14;
+  border-radius: 4px;
+  margin-left: 7px;
+  background-color: #f3c5b7;
+}
+.months-offer-part{
+  display: flex;
+  justify-content: space-between;
+}
+.price-offer-part{
+  display: flex;
+  font-weight: 600;
+}
+.offer-valid-time{
+  font-size: 11px;
+  color: #DE4313;
+}
+.time-part{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.gst-portion{
+  display: flex;
+  justify-content: space-between;
+}
+.gst-desc{
+  color: #3C4852;
+  font-size: 12px;
+}
+.gst-price{
+  color: black;
+  font-size: 15px;
+  font-weight: 700;
+  margin-right: 18px;
+}
+.Total{
+  color: black;
+  font-weight: 600;
+  font-size: 13px;
+}
+.btn-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 9px;
+  margin-right: 9px;;
+}
+.cancel-btn{
+  color:#F77171;
+  background-color: transparent;
+  border: 1px solid #F77171;
+  font-size: 10px;
+  font-weight:bold;
+  width: 110px;
+  height:30px;
+  border-radius: 4px;
+}
+.pay-btn{
+  color:#ffffff;
+  background-color: #47BA68;
+  border: none;
+  font-size: 10px;
+  font-weight:bold;
+  width: 110px;
+  height:30px;
+  border-radius: 4px;
+}
+.razorpay-logo{
+  width: 80px;
+  height:30px;
+  margin-left: 9px;
+  margin-top: 5px;
+}
